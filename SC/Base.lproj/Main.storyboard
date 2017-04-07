@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ujg-V1-bXW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--SC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SC" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homePage" translatesAutoresizingMaskIntoConstraints="NO" id="q77-rV-oZR">
+                                <rect key="frame" x="7" y="164" width="360" height="192"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="nC7-md-Do2">
+                                <rect key="frame" x="0.0" y="539" width="375" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oif-iz-T2w">
+                                <rect key="frame" x="66" y="389" width="110" height="110"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title="基本資料"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="01Y-7E-ZIa" kind="show" id="Bgj-3I-63R"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="name" translatesAutoresizingMaskIntoConstraints="NO" id="gWl-km-vW6">
+                                <rect key="frame" x="74" y="82" width="341" height="82"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvp-xh-2ik">
+                                <rect key="frame" x="197" y="389" width="110" height="110"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title="NBA生涯"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="a53-S4-Vfn" kind="show" id="3Vy-IO-stU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SC" id="5Jl-Wd-HQW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1015.2" y="37.331334332833585"/>
+        </scene>
+        <!--2013-2014-->
+        <scene sceneID="fYX-BL-3tN">
+            <objects>
+                <viewController id="elv-Ot-N7E" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cTK-w5-8Zr"/>
+                        <viewControllerLayoutGuide type="bottom" id="YgA-7V-I2g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6vf-WN-UEy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2013" translatesAutoresizingMaskIntoConstraints="NO" id="av1-Ml-QKg">
+                                <rect key="frame" x="27" y="92" width="321" height="250"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MLD-Kw-hga">
+                                <rect key="frame" x="0.0" y="371" width="375" height="296"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">2013-14賽季
+Curry上季的亮眼表現繼續保持，這季平均24得分8.5助攻4.3籃板，投進261球三分球，首度被選進NBA全明星賽，更以1,047,281票獲得先發位置。可惜勇士隊於2014年季後賽首輪以系列賽比分3-4不敵洛杉磯快艇。</string>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2013-2014" id="q0X-bN-x2Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QBc-tB-N8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-322" y="1675"/>
+        </scene>
+        <!--2014-2015-->
+        <scene sceneID="9Or-dQ-Mho">
+            <objects>
+                <viewController id="t1d-jZ-Vk9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fqv-r3-Y5v"/>
+                        <viewControllerLayoutGuide type="bottom" id="BHz-j8-2cv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YXa-pF-kux">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2qg-zn-j3O">
+                                <rect key="frame" x="0.0" y="371" width="375" height="296"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">2014–15賽季（冠軍賽季）
+新任教練加盟勇士隊，大改革戰術，以外圍投射為重點攻勢，大大發揮了Curry的優勢，使他縮短了出場時間仍可保持得分。在這季平均23.8得分7.7助攻4.3籃板，協助球隊於例行賽取得67勝15負佳績，聯盟排名第一，同時打破球隊創隊紀錄，同年獲得NBA年度MVP，Curry亦以286球三分球打破自己所保持的單季272顆三分球紀錄。Curry於2015年全明星賽大賽投票中以1,513,324票成為票王，並在2015年NBA全明星週末中贏得了三分球大賽冠軍。
+季後賽首輪Curry率領勇士隊以4-0獲得勝利，次輪以4-2獲得勝利，西區冠軍決賽以4-1獲得勝利，2015年6月17日帶領球隊淘汰克利夫蘭騎士，並在第六戰於客場以系列賽比分4-2贏得2014-15賽季NBA總冠軍。</string>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="all" translatesAutoresizingMaskIntoConstraints="NO" id="yaq-e8-Z9A">
+                                <rect key="frame" x="26" y="109" width="323" height="219"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2014-2015" id="B8N-eZ-1xs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OnK-zf-DNZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-140" y="1397"/>
+        </scene>
+        <!--NBA生涯-->
+        <scene sceneID="jOB-bb-1Z9">
+            <objects>
+                <tableViewController id="a53-S4-Vfn" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="UrX-Q3-RbF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="j0v-Gg-USa">
+                            <rect key="frame" x="0.0" y="864" width="600" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <sections>
+                            <tableViewSection id="1vq-bR-qWR">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="iWE-fp-zhH">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iWE-fp-zhH" id="wFT-G8-COX">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2009-2010" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ud9-9l-Vow">
+                                                    <rect key="frame" x="151" y="19" width="216" height="60"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="35"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2009" translatesAutoresizingMaskIntoConstraints="NO" id="XJ0-AZ-kPy">
+                                                    <rect key="frame" x="33" y="9" width="80" height="80"/>
+                                                    <animations/>
+                                                </imageView>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="0DO-hs-F3j" kind="show" id="0I8-vI-EtJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="piq-jG-FYO">
+                                        <rect key="frame" x="0.0" y="164" width="600" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="piq-jG-FYO" id="Xbd-GP-KPp">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2010-2011" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAH-wG-tdx">
+                                                    <rect key="frame" x="151" y="19" width="216" height="60"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="35"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2010" translatesAutoresizingMaskIntoConstraints="NO" id="ghv-dE-cun">
+                                                    <rect key="frame" x="33" y="9" width="80" height="80"/>
+                                                    <animations/>
+                                                </imageView>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="AeI-d3-lvy" kind="show" id="1nM-SD-I6r"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ek4-MR-NuB">
+                                        <rect key="frame" x="0.0" y="264" width="600" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ek4-MR-NuB" id="gjN-SR-V6G">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2011-2012" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3d-Qu-cd4">
+                                                    <rect key="frame" x="151" y="19" width="216" height="60"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="35"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2010" translatesAutoresizingMaskIntoConstraints="NO" id="G9e-9l-xq3">
+                                                    <rect key="frame" x="33" y="9" width="80" height="80"/>
+                                                    <animations/>
+                                                </imageView>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="WT9-HB-gWE" kind="show" id="W2x-yq-2gw"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="las-vq-7jb">
+                                        <rect key="frame" x="0.0" y="364" width="600" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="las-vq-7jb" id="v5K-VK-PJL">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2012-2013" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBF-FH-bO2">
+                                                    <rect key="frame" x="151" y="19" width="216" height="60"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="35"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2010" translatesAutoresizingMaskIntoConstraints="NO" id="zIO-aw-HZF">
+                                                    <rect key="frame" x="33" y="9" width="80" height="80"/>
+                                                    <animations/>
+                                                </imageView>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="jIW-Qi-3ea" kind="show" id="5Xq-4R-7KL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="n45-VI-kAg">
+                                        <rect key="frame" x="0.0" y="464" width="600" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="n45-VI-kAg" id="L0f-4g-GdT">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2013-2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajG-tb-1hY">
+                                                    <rect key="frame" x="151" y="19" width="216" height="60"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="35"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2010" translatesAutoresizingMaskIntoConstraints="NO" id="cbc-Bl-P6S">
+                                                    <rect key="frame" x="33" y="9" width="80" height="80"/>
+                                                    <animations/>
+                                                </imageView>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="elv-Ot-N7E" kind="show" id="LZm-IN-Vmm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wCE-gR-CEz">
+                                        <rect key="frame" x="0.0" y="564" width="600" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wCE-gR-CEz" id="cjh-6M-Pdm">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2010" translatesAutoresizingMaskIntoConstraints="NO" id="E70-Dx-diM">
+                                                    <rect key="frame" x="33" y="9" width="80" height="80"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2014-2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xg-I8-PTf">
+                                                    <rect key="frame" x="151" y="19" width="216" height="60"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="35"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="t1d-jZ-Vk9" kind="show" id="ODV-hZ-2jJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="TeY-8g-KkF">
+                                        <rect key="frame" x="0.0" y="664" width="600" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TeY-8g-KkF" id="LY0-Xa-4nw">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2010" translatesAutoresizingMaskIntoConstraints="NO" id="36p-PB-rEv">
+                                                    <rect key="frame" x="33" y="9" width="80" height="80"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2015-2016" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dI-Gs-zbz">
+                                                    <rect key="frame" x="151" y="19" width="216" height="60"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="35"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="WkG-qV-G9U" kind="show" id="qOP-0g-lho"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="E2W-nQ-XAU">
+                                        <rect key="frame" x="0.0" y="764" width="600" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E2W-nQ-XAU" id="pXd-Ug-xQ8">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2016-2017" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ft-CY-e3i">
+                                                    <rect key="frame" x="151" y="19" width="216" height="60"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="35"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2010" translatesAutoresizingMaskIntoConstraints="NO" id="M9P-k8-osA">
+                                                    <rect key="frame" x="33" y="9" width="80" height="80"/>
+                                                    <animations/>
+                                                </imageView>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="1s2-Ri-wcX" kind="show" id="0tF-qm-97K"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="a53-S4-Vfn" id="jlR-KB-wSa"/>
+                            <outlet property="delegate" destination="a53-S4-Vfn" id="ci1-25-aue"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="NBA生涯" id="08V-TX-IlK"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y0L-q9-lVl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1165" y="772"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="k3H-Qa-tVU">
+            <objects>
+                <viewController id="aKo-e8-IlG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qC5-a0-MjL"/>
+                        <viewControllerLayoutGuide type="bottom" id="k7A-Ew-4Pw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="93X-6X-pX6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="lSY-5n-ZWY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6V8-rW-9m6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="981"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="Zf9-A8-zcm">
+            <objects>
+                <viewController id="1zu-VM-K54" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ocw-w5-fVA"/>
+                        <viewControllerLayoutGuide type="bottom" id="fgo-tc-YzG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xxq-C9-hla">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="mzq-ms-D60"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agb-qa-yJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="320"/>
+        </scene>
+        <!--2009-2010-->
+        <scene sceneID="lqM-a9-BDW">
+            <objects>
+                <viewController id="0DO-hs-F3j" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4xW-jn-yXl"/>
+                        <viewControllerLayoutGuide type="bottom" id="heN-h8-gX0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uhS-AA-ilY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2009-1" translatesAutoresizingMaskIntoConstraints="NO" id="BX7-vJ-aCz">
+                                <rect key="frame" x="28" y="90" width="318" height="259"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2cK-rv-MlS">
+                                <rect key="frame" x="0.0" y="371" width="375" height="296"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">2009–10賽季（新秀賽季）
+Curry在2009年NBA選秀被金州勇士隊挑中，簽下四年合約。Curry第一場NBA比賽的對手是休斯頓火箭，他上陣36分鐘取得14分，7次助攻，4次抄截，2次失誤，一份還不錯的成績表。在2010年1月，其隊友兼球隊得分主力受傷。在2月10號的比賽Curry成功取得生涯首次三雙（triple-double），36分，13次助攻，10個籃板，其中3分更11投7中。在4月份的比賽中，Curry更有接近取得四雙（quadruple-double）的表現，27分，14次助攻，8個籃板，7次抄截。當季三分球更命中166球，命中率達43.7%，Curry成功入選最佳新秀陣容第一隊，不過勇士隊則未進入2010年季後賽。</string>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2009-2010" id="JPP-ja-d1k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0wZ-7U-KO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2021.5999999999999" y="779.46026986506752"/>
+        </scene>
+        <!--2012-2013-->
+        <scene sceneID="xp1-GK-Qcx">
+            <objects>
+                <viewController id="jIW-Qi-3ea" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1QB-ki-GHC"/>
+                        <viewControllerLayoutGuide type="bottom" id="LEZ-f5-jTT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LO8-eX-ANd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2012" translatesAutoresizingMaskIntoConstraints="NO" id="eRQ-UG-qTh">
+                                <rect key="frame" x="28" y="102" width="318" height="231"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bjh-Ya-zkW">
+                                <rect key="frame" x="0.0" y="371" width="375" height="296"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">2012–13賽季（成為主將）
+Curry與球隊續簽4年價值4千4百萬美元的新合約。新球季頭兩個月，Curry每場平均便取得超過20分，及後每月平均得分一路上升，2月27日對尼克的一戰中更奪得其個人生涯得分新高54分，3分球13投11中。
+當季Curry射入272球3分球，打破NBA一季射入3分球最多的紀錄，前紀錄為269球。Curry例行賽取得場均22.9分，4個籃板，6.9次助攻，1.6次抄截，成功帶領球隊以西區第六種子進入2013年季後賽，重返睽違6年的季後賽。
+西區準決賽，勇士遇上聖安東尼奧馬刺。Curry在第1場豪取44分及11次助攻，不過馬刺很快找到鎖死「浪花兄弟」的策略，最後勇士以2:4結束賽季。</string>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2012-2013" id="IXr-ww-6lj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CCn-FD-3t6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="377" y="1646"/>
+        </scene>
+        <!--2011-2012-->
+        <scene sceneID="HDv-G1-uR8">
+            <objects>
+                <viewController id="WT9-HB-gWE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BVj-qp-ZgI"/>
+                        <viewControllerLayoutGuide type="bottom" id="e05-rb-OoW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EDW-Xo-vTV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2011" translatesAutoresizingMaskIntoConstraints="NO" id="un9-Qn-VlZ">
+                                <rect key="frame" x="31" y="89" width="313" height="261"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EXO-1Q-X2k">
+                                <rect key="frame" x="0.0" y="371" width="375" height="296"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">2011–12賽季（因傷病困擾的賽季）
+Curry因腳右腳踝頻頻受傷而需要接受手術，全季只出場了26場，表現大幅度下跌，不過其3分球命中率卻繼續保持在4成5左右，而球隊命運亦同上兩季一樣，未能進入2012年季後賽。</string>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2011-2012" id="hJi-0p-kdt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uER-vI-vbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1165.5999999999999" y="1617.8410794602701"/>
+        </scene>
+        <!--2010-2011-->
+        <scene sceneID="xlR-xx-UiS">
+            <objects>
+                <viewController id="AeI-d3-lvy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8cV-pA-SzV"/>
+                        <viewControllerLayoutGuide type="bottom" id="71v-lU-Jh8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AG2-UB-dqp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2010-1" translatesAutoresizingMaskIntoConstraints="NO" id="14x-sf-6zM">
+                                <rect key="frame" x="24" y="94" width="327" height="236"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Fc-FX-0i4">
+                                <rect key="frame" x="0.0" y="371" width="375" height="296"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">2010–11賽季
+Curry在2011年贏得了技術挑戰賽的冠軍。當季柯瑞得分達18.6分，5.8次助攻，3.9個籃板，1.5次抄截，其中3分球命中率更升至44.2%，而罰球命中率93.4%更打破球會紀錄，最後同季Curry更取得最佳體育精神獎，不過勇士隊還是未進入2011年季後賽。</string>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2010-2011" id="CbG-bv-ut6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YKJ-9d-t2w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2005.5999999999999" y="1617.8410794602701"/>
+        </scene>
+        <!--紀錄-->
+        <scene sceneID="V7z-o1-t7d">
+            <objects>
+                <viewController id="RBW-56-2Ok" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z3A-Hs-By7"/>
+                        <viewControllerLayoutGuide type="bottom" id="rHx-oP-68d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dlM-iC-k3e">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="WjB-kQ-hBl">
+                                <rect key="frame" x="0.0" y="43" width="375" height="227"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d5b-Ov-WGU">
+                                <rect key="frame" x="0.0" y="269" width="375" height="349"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">NBA總冠軍（2015）
+2×NBA最有價值球員（2015、2016）
+4×NBA全明星賽（2014–2017）
+2×NBA年度第一隊（2015、2016）
+NBA年度第二隊（2014）
+NBA三分球大賽冠軍（2015）
+NBA抄截王 （2016）
+NBA得分王 （2016）
+NBA技獎（2011）
+NBA最佳新秀陣容第一隊（2010）
+NCAA全美公認第一隊（2009）
+NCAA全美公認第二隊（2008）
+NCAA第一級得分王（2009）
+2xSoCon年度最佳球員（2008–2009）</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" systemItem="history" id="gmd-Yd-SMg"/>
+                    <navigationItem key="navigationItem" title="紀錄" id="dUV-zz-dcd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BbR-Mg-E9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2380" y="-136.28185907046478"/>
+        </scene>
+        <!--Wardell Stephen Curry-->
+        <scene sceneID="VqH-Ju-ViC">
+            <objects>
+                <viewController id="jUZ-Zl-iwa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qlD-av-dOI"/>
+                        <viewControllerLayoutGuide type="bottom" id="82Z-Jn-HCQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="au1-Cs-Chv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sc" translatesAutoresizingMaskIntoConstraints="NO" id="l97-J7-q6T">
+                                <rect key="frame" x="0.0" y="45" width="375" height="222"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H3o-Bz-2Hw">
+                                <rect key="frame" x="0.0" y="269" width="375" height="349"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">位置: 控衛
+聯盟: NBA
+
+出生: 1988年3月14日 美國俄亥俄州阿克倫城
+國籍: 美國
+登錄身高: 6英尺3英寸（1.91米）
+登錄體重: 190磅（86公斤）
+
+高中: 夏洛特基督教學校 (北卡羅來納)
+大學: 大衛森學院
+NBA選秀: 2009年 / 第1輪 / 第7順位. 被金州勇士選中
+職業生涯: 2009年–至今</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="10C-kI-rNb"/>
+                    <navigationItem key="navigationItem" title="Wardell Stephen Curry" id="8sc-fi-h1R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R2y-Bt-cCc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3070" y="-994"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dUy-Qp-5Z7">
+            <objects>
+                <tabBarController id="01Y-7E-ZIa" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="4b0-CP-dY5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jUZ-Zl-iwa" kind="relationship" relationship="viewControllers" id="zZo-T4-91C"/>
+                        <segue destination="RBW-56-2Ok" kind="relationship" relationship="viewControllers" id="nY8-7V-JKz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OfM-qT-Cnw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1647" y="-697"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="V2F-X3-7iC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ujg-V1-bXW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TCi-xe-RjV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Pvr-3U-IJo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="raF-bt-mKS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="36.431784107946029"/>
+        </scene>
+        <!--2016-2017-->
+        <scene sceneID="Zur-ei-gdX">
+            <objects>
+                <viewController id="1s2-Ri-wcX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cHA-gd-dEe"/>
+                        <viewControllerLayoutGuide type="bottom" id="PnE-ys-gbH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UvP-XU-JlS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2016" translatesAutoresizingMaskIntoConstraints="NO" id="tDb-Sk-paW">
+                                <rect key="frame" x="32" y="102" width="308" height="229"/>
+                                <animations/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Su2-5g-aKr">
+                                <rect key="frame" x="0.0" y="371" width="375" height="296"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="j" translatesAutoresizingMaskIntoConstraints="NO" id="WKi-Tg-lTW">
+                                        <rect key="frame" x="262" y="4" width="113" height="292"/>
+                                        <animations/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="勇士準備拿總冠軍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8DM-6K-fnb">
+                                        <rect key="frame" x="8" y="45" width="302" height="206"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="33"/>
+                                        <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2016-2017" id="xcI-su-T4q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DB3-Tl-fme" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-328.80000000000001" y="749.7751124437782"/>
+        </scene>
+        <!--2015-2016-->
+        <scene sceneID="Vvs-rG-BXN">
+            <objects>
+                <viewController id="WkG-qV-G9U" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="umv-qq-ca7"/>
+                        <viewControllerLayoutGuide type="bottom" id="iYo-2d-KL9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZTl-4F-r1g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2015" translatesAutoresizingMaskIntoConstraints="NO" id="xKD-wC-42H">
+                                <rect key="frame" x="42" y="102" width="290" height="236"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k33-n1-vRW">
+                                <rect key="frame" x="0.0" y="371" width="375" height="296"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">2015–16賽季：全票MVP
+Curry該季例行賽平均30.1得分5.4籃板6.7助攻2.1抄截，成為第3個進入「50-40-90俱樂部」的球員，同時在該季也成為史上第一位全票通過的最有價值球員。
+Curry經過冠軍賽季後，投籃變得更放膽，頻頻於超遠距離起手命中，在2月28日對奧克拉荷馬城雷霆投進12顆三分球(提早再次打破自己單季三分球紀錄，並追平聯盟單場三分球紀錄)，而且在終場前果斷地投進一顆著名的「LOGO SHOT」絕殺，引起NBA內極大迴響。最終將單季三分球紀錄由286球一口氣推至402球，三度打破紀錄。
+在Curry的活躍表現下，勇士取得73勝9敗，打破了95-96年芝加哥公牛所創的72勝10敗紀錄，亦以開季24連勝打破NBA球隊開季連勝紀錄，同時跨季28連勝創下了NBA史上第二佳的例行賽連勝紀錄。</string>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2015-2016" id="avk-CO-B6n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mY9-e7-laA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="756"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2009" width="125" height="125"/>
+        <image name="2009-1" width="500" height="537"/>
+        <image name="2010" width="125" height="125"/>
+        <image name="2010-1" width="736" height="551"/>
+        <image name="2011" width="600" height="682"/>
+        <image name="2012" width="866" height="563"/>
+        <image name="2013" width="1024" height="717"/>
+        <image name="2015" width="1740" height="1305"/>
+        <image name="2016" width="600" height="407"/>
+        <image name="all" width="4592" height="2756"/>
+        <image name="bg" width="2560" height="1600"/>
+        <image name="bottom" width="1078" height="388"/>
+        <image name="homePage" width="1026" height="577"/>
+        <image name="j" width="640" height="2210"/>
+        <image name="name" width="970" height="194"/>
+        <image name="sc" width="2048" height="1269"/>
+    </resources>
+</document>
